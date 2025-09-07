@@ -1,0 +1,55 @@
+.card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 1.5px 9px #daecfa41, 0 1px 4px #b8dbddb1;
+  padding: 2.1rem 1.5rem 2rem 1.5rem;
+  flex: 0 1 280px;
+  max-width: 310px;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 0.14s, box-shadow 0.19s;
+  position: relative;
+}
+
+.card:hover, .card:focus-within {
+  transform: translateY(-7px) scale(1.027);
+  box-shadow: 0 9px 40px #145aea44, 0 2px 17px #94ccec29;
+  z-index: 1;
+}
+
+.card h3 {
+  font-size: 1.32rem;
+  color: #145aea;
+  margin-bottom: 0.7rem;
+}
+
+.card p {
+  font-size: 1.1rem;
+  color: #454f5c;
+  margin-bottom: 1.1rem;
+  min-height: 38px;
+}
+
+.card a {
+  display: inline-block;
+  padding: 8px 27px;
+  border-radius: 6px;
+  background: #2be4a0;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: auto;
+  transition: background 0.16s, transform 0.13s;
+  box-shadow: 0 1px 7px #befae441;
+  letter-spacing: 0.04em;
+  font-size: 1.02rem;
+  margin-bottom: 0.5rem;
+}
+
+.card a:hover, .card a:focus {
+  background: #145aea;
+  color: #fff;
+  transform: scale(1.05);
+}

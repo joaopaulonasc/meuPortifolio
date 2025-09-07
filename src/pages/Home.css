@@ -1,0 +1,102 @@
+.home-section {
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2.2rem;
+  background: linear-gradient(135deg, #f4f8fc 65%, #ddeafe 100%);
+  padding: 3.5rem 1.2rem 3rem 1.2rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 32px #b0b9fa28, 0 2px 8px #0001;
+  margin: 2.5rem auto;
+  max-width: 820px;
+}
+.foto-perfil {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  box-shadow: 0 6px 24px #2a308633, 0 1px 8px #002a;
+  border: 5px solid #fff;
+  background: linear-gradient(139deg, #c7e1f9, #92f0e9);
+  transition: box-shadow 0.25s, transform 0.16s;
+}
+.foto-perfil:hover {
+  box-shadow: 0 10px 30px #0077b566, 0 2px 22px #145aea45;
+  transform: scale(1.03) rotate(-3deg);
+}
+.descricao-pessoal {
+  max-width: 520px;
+  background: #fff9;
+  border-radius: 16px;
+  padding: 1.9rem 2rem 2rem 2rem;
+  box-shadow: 0 4px 14px #cad5e721;
+}
+.descricao-pessoal h2 {
+  font-size: 2.3rem;
+  color: #145aea;
+  margin-bottom: 1.1rem;
+  letter-spacing: 0.03em;
+}
+.descricao-pessoal p {
+  font-size: 1.18rem;
+  color: #3f4851;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.social-links {
+  margin-top: 1.3rem;
+  display: flex;
+  gap: 1.1rem;
+  justify-content: center;
+}
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #eaeaee;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  color: #145aea;
+  font-size: 1.5rem;
+  transition: background 0.2s, color 0.2s, transform 0.18s;
+  box-shadow: 0 2px 5px #c1d6f7b0;
+  border: 2.5px solid #bdd2fc;
+}
+.icon-link:hover,
+.icon-link:focus {
+  background: #145aea;
+  color: #fff !important;
+  transform: scale(1.14) rotate(-6deg);
+  border-color: #4464f7;
+}
+.icon-link:active {
+  background: #223a88;
+  color: #fff;
+}
+.icon-link.icon-linkedin:hover { background: #0077b5; }
+.icon-link.icon-github:hover { background: #24292e; }
+.icon-link.icon-instagram:hover { background: #f94eb2; }
+.btn-cv {
+  display: inline-block;
+  margin-top: 1.8rem;
+  padding: 10px 32px;
+  background: linear-gradient(90deg,#2be4a0 20%,#145aea 100%);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.09rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: box-shadow 0.17s, background 0.15s, transform .08s;
+  box-shadow: 0 3px 12px #2be4a030;
+  letter-spacing: 0.04em;
+}
+.btn-cv:hover, .btn-cv:focus {
+  background: linear-gradient(78deg,#145aea 50%, #2be4a0 100%);
+  box-shadow: 0 6px 19px #358eba63;
+  transform: scale(1.06);
+}

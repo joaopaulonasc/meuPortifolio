@@ -1,0 +1,55 @@
+/* ---------- Layout geral da aplicação: estrutura flex com footer sticky ---------- */
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1 1 auto;
+  padding: 0 1rem 3rem 1rem;
+  background-color: #f9fbff; /* pode escolher uma cor clara neutra */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Reset básico para body e html */
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #f9fbff;
+  color: #333;
+}
+
+/* Estilo base para links globalmente */
+a {
+  color: #145aea;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #2be4a0;
+  outline: none;
+}
+
+/* Utilitários e padrões globais */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.6em;
+}
+
+/* Scroll suave */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+

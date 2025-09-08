@@ -1,11 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# Agora recrie totalmente o README do repositório [joaopaulonasc/meuPortifolio](https://github.com/joaopaulonasc/meuPortifolio). Bote informações importantes que normalmente tem em um README de um projeto como esse e um passo a passo de como uma pessoa pode compilar.
-
-Aqui está um README completo, profissional e amigável para o seu repositório [joaopaulonasc/meuPortifolio](https://github.com/joaopaulonasc/meuPortifolio). Este modelo aborda apresentação, recursos, instalação, compilação, tecnologias, contribuição e licença — tudo projetado para facilitar o uso e entendimento do seu portfólio.
-
-***
-
 # Meu Portfólio React
 
 ## 🚀 Sobre o Projeto

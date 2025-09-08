@@ -162,10 +162,3 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 > Obrigado por visitar meu portfólio! Se você gostou, deixe uma estrela ⭐ no repositório.
 
 ***
-
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

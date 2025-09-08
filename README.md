@@ -153,9 +153,9 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## 📬 Contato
 
-- [LinkedIn](https://linkedin.com/in/joaopaulonasc)
-- [Instagram](https://instagram.com/joaopaulonasc)
-- Email: [seu-email@example.com]
+- [LinkedIn](https://linkedin.com/in/joao-paulo-nascimento-sec)
+- [Instagram](https://instagram.com/joaop_aulonasc)
+- Email: [jpnascimento1997@hotmail.com]
 
 ***
 

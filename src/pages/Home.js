@@ -36,7 +36,7 @@ function Home() {
   return (
     <section className="home-section">
       <img
-        src="/perfil.jpg"
+        src={`${process.env.PUBLIC_URL}/perfil.jpg`}
         alt="Seu Nome"
         className="foto-perfil anim-avatar"
       />
@@ -61,7 +61,7 @@ function Home() {
           ))}
         </div>
         <a
-          href="/docs/Joao-Paulo-Nascimento-Alves v12.pdf"  /* coloque o caminho correto do seu CV em /public/docs/ */
+          href="/meuPortifolio/docs/CVLinkedin.pdf"  /* coloque o caminho correto do seu CV em /public/docs/ */
           className="btn-cv"
           download
         >

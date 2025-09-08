@@ -1,70 +1,164 @@
-# Getting Started with Create React App
+# Meu Portfólio React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Sobre o Projeto
 
-## Available Scripts
+Este é um portfólio pessoal feito em React, criado para apresentar meus projetos, vídeos, apresentações e informações profissionais.
+Aqui você pode encontrar minhas principais realizações como desenvolvedor, assistir palestras/gravações, visualizar documentos de projetos e entrar em contato comigo.
 
-In the project directory, you can run:
+Acesse o site publicado:
+🔗 [joaopaulonasc.github.io/meuPortifolio](https://joaopaulonasc.github.io/meuPortifolio/)
 
-### `npm start`
+***
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌟 Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Home com foto e descrição pessoal
+- Navegação entre seções (Projetos, Vídeos, Apresentações)
+- Cards para cada categoria, com links para projetos, vídeos embutidos e arquivos de apresentações/PDFs
+- Layout moderno e responsivo para desktop e mobile
+- Rodapé estilizado com copyright
+- Links de redes sociais e botão para download de CV
+- Navegação client-side usando **React Router (HashRouter)**
+- Hospedagem fácil via GitHub Pages
 
-### `npm test`
+***
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Tecnologias Utilizadas
 
-### `npm run build`
+- [ReactJS](https://react.dev/)
+- [React Router DOM](https://reactrouter.com/)
+- [CSS Flexbox/Grid]
+- Hospedado via [GitHub Pages](https://pages.github.com/)
+- Edição no [VS Code](https://code.visualstudio.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+***
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📷 Demonstração
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Demo do Portfólio](./public/printPort.png)
 
-### `npm run eject`
+***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📦 Instalação e Execução Local
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Pré-requisitos
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Node.js](https://nodejs.org/) (v18+ recomendado)
+- [npm](https://www.npmjs.com/) ou [yarn]
+- Git (opcional, mas recomendado)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Passo a Passo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone este repositório:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/joaopaulonasc/meuPortifolio.git
+cd meuPortifolio
+```
 
-### Code Splitting
+2. Instale as dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+# ou
+yarn install
+```
 
-### Analyzing the Bundle Size
+3. Rode o projeto em modo desenvolvimento:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+# ou
+yarn start
+```
 
-### Making a Progressive Web App
+O aplicativo estará disponível em [http://localhost:3000](http://localhost:3000).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+***
 
-### Advanced Configuration
+## 🚀 Como Publicar no GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Instale o pacote de deploy:
 
-### Deployment
+```bash
+npm install --save-dev gh-pages
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Adicione à sua `package.json`:
 
-### `npm run build` fails to minify
+```json
+"homepage": "https://joaopaulonasc.github.io/meuPortifolio",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  // ...outros scripts
+}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Publique:
+
+```bash
+npm run deploy
+```
+
+
+***
+
+## 📝 Estrutura do Projeto
+
+```
+meuPortifolio/
+│
+├── public/
+│    └── perfil.jpg
+│    └── docs/
+│         ├── apresentacao1.pdf
+│         └── redescomputadores.pdf
+│
+├── src/
+│    ├── components/
+│    │    ├── Navbar.js/.css
+│    │    ├── Footer.js/.css
+│    │    ├── ProjetoCard.js/.css
+│    │    ├── VideoCard.js/.css
+│    │    └── DocumentoCard.js/.css
+│    ├── pages/
+│    │    ├── Home.js/.css
+│    │    ├── Projetos.js/.css
+│    │    ├── Videos.js/.css
+│    │    └── Apresentacoes.js/.css
+│    └── App.js
+│    └── App.css
+│
+├── package.json
+└── README.md
+```
+
+
+***
+
+## 🤝 Contribuindo
+
+Contribuições são muito bem-vindas!
+Abra uma issue para sugerir melhorias ou reportar bugs, ou envie um pull request para adicionar novos recursos.
+
+***
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+***
+
+## 📬 Contato
+
+- [LinkedIn](https://linkedin.com/in/joao-paulo-nascimento-sec)
+- [Instagram](https://instagram.com/joaop_aulonasc)
+- Email: [jpnascimento1997@hotmail.com]
+
+***
+
+> Obrigado por visitar meu portfólio! Se você gostou, deixe uma estrela ⭐ no repositório.
+
+***

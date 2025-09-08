@@ -4,11 +4,11 @@ import "./Apresentacoes.css"; // em src/pages/Apresentacoes.js
 const docs = [
   {
     titulo: "Redes Computadores PDF",
-    link: "/docs/RedesComputadores.pdf",  // Certifique-se que o arquivo esteja em public/docs/
+    link: "/meuPortifolio/docs/Redes-de-Computadores-Fundamentos-e-Tecnologias-Essenciais.pdf",  // Certifique-se que o arquivo esteja em public/docs/
   },
   {
     titulo: "RedesComputadores em PowerPoint",
-    link: "/docs/RedesComputadores.pptx", // Idem
+    link: "/meuPortifolio/docs/RedesComputadores.pptx", // Idem
   },
   // Se quiser exibir via Google Drive (visualização online):
   // {

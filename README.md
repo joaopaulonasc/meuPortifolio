@@ -163,39 +163,6 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ***
 
-### Extras
-
-- Consulte arquivos PDF ou apresentações em `/docs` via link absoluto como `/meuPortifolio/docs/nome-do-arquivo.pdf`.
-- Atualize suas imagens e documentos na pasta `public` antes de novo deploy.
-- Para dúvidas, consulte a [Documentação Oficial do React](https://react.dev/) ou [Github Pages Guide](https://pages.github.com/).
-
-***
-
-Se quiser, faço um README em inglês ou insiro mais exemplos e imagens do funcionamento do portfólio!
-<span style="display:none">[^1][^10][^2][^3][^4][^5][^6][^7][^8][^9]</span>
-
-<div style="text-align: center">⁂</div>
-
-[^1]: https://github.com/joaopaulonasc/meuPortifolio
-
-[^2]: https://github.com/othneildrew/Best-README-Template
-
-[^3]: https://gist.github.com/6b4c3f51a1cc7ec2fa6c3309205be0f7
-
-[^4]: https://github.com/iuricode/readme-template
-
-[^5]: https://dev.to/sumonta056/github-readme-template-for-personal-projects-3lka
-
-[^6]: https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
-
-[^7]: https://github.com/alexandrerosseto/readme-portfolio-template
-
-[^8]: https://www.youtube.com/watch?v=rCt9DatF63I
-
-[^9]: https://github.com/abhisheknaiidu/awesome-github-profile-readme
-
-[^10]: https://github.com/topics/portfolio-template
-
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
